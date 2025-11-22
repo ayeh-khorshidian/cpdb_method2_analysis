@@ -45,3 +45,18 @@ pip install cellphonedb numpy pandas matplotlib seaborn
 Place your CellPhoneDB result files in cpdb_out/<comparison_name>/.
 Run the analysis
 Use the functions in src/utils_cpdb.py to generate plots.
+<!-- Badges -->
+<p align="left">
+  <!-- Python version -->
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg" alt="Python Version">
+  
+  <!-- License -->
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT">
+
+  <!-- Build status placeholder (optional) -->
+  <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Project Status">
+
+  <!-- PyPI placeholder (even if not published yet) -->
+  <img src="https://img.shields.io/badge/PyPI-not_published-lightgrey.svg" alt="PyPI">
+</p>
+
