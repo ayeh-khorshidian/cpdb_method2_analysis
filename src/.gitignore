@@ -1,0 +1,28 @@
+# Ignore data directories
+cpdb_out/
+data/
+datasets/
+results/
+
+# Ignore large or private files
+*.h5ad
+*.h5
+*.bam
+*.vcf
+*.fastq
+*.fastq.gz
+*.csv
+*.tsv
+*.txt
+
+# Ignore CPDB outputs if accidentally placed here
+statistical_analysis_*.txt
+significant_means_*.txt
+means_*.txt
+pvalues_*.txt
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
