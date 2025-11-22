@@ -1,21 +1,11 @@
-# CellPhoneDB Method 2 – NK and CD4 T cell interaction analysis
-
-This repository contains the analysis code and Jupyter notebook used for 
-CellPhoneDB Method 2 analysis of immune cell interactions (for example NK–monocyte) 
-across multiple timepoints.
-
 ## Overview
 
-The code and notebook show how to:
-
-- Load CellPhoneDB Method 2 outputs (means, pvalues, significant_means)
-- Filter and summarize significant ligand–receptor interactions
-- Generate visualizations:
-  - Heatmaps
-  - Bubble plots
-  - Volcano plots
-  - Sender–receiver bar plots
-  - Ligand–receptor ranking plots
+This repository provides utility functions and example workflows for analyzing CellPhoneDB Method 2 outputs, including:
+Parsing statistical means, pvalues, and significant_means files
+Generating ligand–receptor ranking plots
+Creating sender–receiver interaction summaries
+Producing heatmaps, bubble plots, and pseudo-volcano plots
+All functions are implemented in src/utils_cpdb.py.
 
 ## Data
 
@@ -48,7 +38,10 @@ cpdb_out/figures_method2/
 ## How to run
 
 Create and activate a Python environment.
+python3 -m venv env
+source env/bin/activate
 Install the required packages, for example:
 pip install cellphonedb numpy pandas matplotlib seaborn
 Place your CellPhoneDB result files in cpdb_out/<comparison_name>/.
-Open the notebook and run the cells in order.
+Run the analysis
+Use the functions in src/utils_cpdb.py to generate plots.
